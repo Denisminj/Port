@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Scroll Animation with NavBar</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<body>
+  <header>
+    <nav>
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+  <section id="home">
+    <div class="container reveal">
+      <h1>Watch the Nav Bar as you Scroll Down &#8595;</h1>
+    </div>
+  </section>
+  <section id="about">
+    <div class="container reveal">
+      <h2>About</h2>
+      <div class="text-container">
+        <div class="text-box">
+          <h3>Section Text</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+            eius molestiae perferendis eos provident vitae iste. Lorem ipsum
+            dolor sit amet consectetur adipisicing elit. Quam blanditiis,
+            officiis, voluptate quisquam aperiam nobis est, quis neque esse
+            soluta dolores iste sit corrupti! Magnam, delectus qui. Odit,
+            accusamus doloremque.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex est
+            rerum id quis eaque rem suscipit reprehenderit quaerat vero
+            nesciunt?
+          </p>
+          <p>
+           
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="services">
+    <div class="container reveal">
+      <h2>Services</h2>
+      <div class="text-container">
+        <div class="text-box">
+          <h3>Section text</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+            eius molestiae perferendis eos provident vitae iste.
+          </p>
+        </div>
+        <div class="text-box">
+          <h3>Section Text</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+            eius molestiae perferendis eos provident vitae iste.
+          </p>
+        </div>
+        <div class="text-box">
+          <h3>Section Text</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+            eius molestiae perferendis eos provident vitae iste.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container reveal">
+            <h2>Registration Form</h2>
+          </div>
+          <div class="panel-body">
+            <form action="connect.php" method="post">
+              <div class="form-group">
+                <label for="firstName">First Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="firstName"
+                  name="firstName"
+                />
+              </div>
+              <div class="form-group">
+                <label for="lastName">Last Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="lastName"
+                  name="lastName"
+                />
+              </div>
+              <div class="form-group">
+                <label for="gender">Gender</label>
+                <div>
+                  <label for="male" class="radio-inline"
+                    ><input
+                      type="radio"
+                      name="gender"
+                      value="m"
+                      id="male"
+                    />Male</label
+                  >
+                  <label for="female" class="radio-inline"
+                    ><input
+                      type="radio"
+                      name="gender"
+                      value="f"
+                      id="female"
+                    />Female</label
+                  >
+                  <label for="others" class="radio-inline"
+                    ><input
+                      type="radio"
+                      name="gender"
+                      value="o"
+                      id="others"
+                    />Others</label
+                  >
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="email"
+                  name="email"
+                />
+              </div>
+              <div class="form-group">
+                <label for="password">Password</label>
+                <input
+                  type="password"
+                  class="form-control"
+                  id="password"
+                  name="password"
+                />
+              </div>
+              <div class="form-group">
+                <label for="number">Phone Number</label>
+                <input
+                  type="number"
+                  class="form-control"
+                  id="number"
+                  name="number"
+                />
+              </div>
+              <input type="submit" class="btn btn-primary" />
+            </form>
+          </div>
+    </div>
+  </section>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
