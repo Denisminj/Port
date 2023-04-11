@@ -10,11 +10,12 @@
 		echo "$conn->connect_error";
 		die("Connection Failed : ". $conn->connect_error);
 	} else {
-		$stmt = $conn->prepare("insert into registration(firstName, email, number, message) values(?, ?, ?, ?)");
+		$stmt = $conn->prepare("insert into port(firstName, email, number, message) values(?, ?, ?, ?)");
 		$stmt->bind_param("ssss", $firstName, $email, $number, $message);
 		$execval = $stmt->execute();
 		echo $execval;
-		echo "Registration successfully...";
+		echo "<script>alert('Message sent successfully!');</script>";
+		echo "<script>window.location.href = 'index.html';</script>"; 
 		$stmt->close();
 		$conn->close();
 	}

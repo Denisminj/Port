@@ -2,7 +2,7 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>CodePen - Scroll Animation with NavBar</title>
+  <title>Portfolio</title>
   <link rel="stylesheet" href="./style.css">
 
 </head>
@@ -13,13 +13,18 @@
     <nav>
       <a href="#home" class="active">Home</a>
       <a href="#about">About</a>
-      <a href="#services">Services</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#certification">Certifications</a>
       <a href="#contact">Contact</a>
+      <a href="DenisMinj_InternshalaResume.pdf" download="my-file.pdf">Download PDF</a>
+
     </nav>
   </header>
   <section id="home">
     <div class="container reveal">
-      <h1>Watch the Nav Bar as you Scroll Down &#8595;</h1>
+      <h1>Hi, This is Denis Minj &#8595;</h1>
+      <button onclick="window.location.href='resume.html'">View My Resume</button>
     </div>
   </section>
   <section id="about">
@@ -27,19 +32,22 @@
       <h2>About</h2>
       <div class="text-container">
         <div class="text-box">
-          <h3>Section Text</h3>
+          <h3>Denis Minj</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
-            eius molestiae perferendis eos provident vitae iste. Lorem ipsum
-            dolor sit amet consectetur adipisicing elit. Quam blanditiis,
-            officiis, voluptate quisquam aperiam nobis est, quis neque esse
-            soluta dolores iste sit corrupti! Magnam, delectus qui. Odit,
-            accusamus doloremque.
-          </p>
+            As a student who loves working with DevOps and Linux, 
+            I'm excited to start a career in this growing field. 
+            I've learned a lot about Linux system administration, 
+            networking, and automation, as well as DevOps tools and practices like continuous integration and deployment, 
+            configuration management, and containerization.
+
+          </p><br>
+          
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex est
-            rerum id quis eaque rem suscipit reprehenderit quaerat vero
-            nesciunt?
+          I'm always looking for new ways to learn and grow in this area, 
+          and I'm committed to staying current with the latest technologies and trends. 
+          Through my portfolio, I hope to demonstrate my technical skills, ability to solve problems, and enthusiasm for this field. 
+          I'm excited to collaborate with others in this space and contribute to the success of any project I work on.
+
           </p>
           lkfajlkdjfljsaljfljsadlfjklj
           fadsf
@@ -55,88 +63,62 @@
     </div>
   </section>
 
-  <section id="services">
+  <section id="projects">
     <div class="container reveal">
-      <h2>Services</h2>
+      <h2>Projects</h2>
       <div class="text-container">
         <div class="text-box">
-          <h3>Section text</h3>
+          <h3>Jenkins Deployed</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
-            eius molestiae perferendis eos provident vitae iste.
+           Deployed a NodeJs App using Jenkins CI/CD on AWS 
           </p>
         </div>
         <div class="text-box">
-          <h3>Section Text</h3>
+          <h3>fas fdas</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
-            eius molestiae perferendis eos provident vitae iste.
+            
           </p>
         </div>
         <div class="text-box">
-          <h3>Section Text</h3>
+          <h3>Pfalkj</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
-            eius molestiae perferendis eos provident vitae iste.
+           
           </p>
         </div>
       </div>
     </div>
   </section>
 
+  <section id="skills">
+    <div class="container reveal">
+      <h2>Skills</h2>
+
+  </section>
+
+  <section id="certifications">
+    <div class="container reveal">
+      <h2>Certifications</h2>
+      <embed src="certification.jpg" width="100%" height="600px" />
+    </div>
+  </section>
+  
   <section id="contact">
     <div class="container reveal">
-            <h2>Registration Form</h2>
-          </div>
+            <h2>Contact Me</h2>
+          </div><br>
           <div class="panel-body">
             <form action="connect.php" method="post">
               <div class="form-group">
-                <label for="firstName">First Name</label>
+                <label for="firstName">Name</label>
                 <input
                   type="text"
                   class="form-control"
                   id="firstName"
                   name="firstName"
                 />
-              </div>
-              <div class="form-group">
-                <label for="lastName">Last Name</label>
-                <input
-                  type="text"
-                  class="form-control"
-                  id="lastName"
-                  name="lastName"
-                />
-              </div>
-              <div class="form-group">
-                <label for="gender">Gender</label>
-                <div>
-                  <label for="male" class="radio-inline"
-                    ><input
-                      type="radio"
-                      name="gender"
-                      value="m"
-                      id="male"
-                    />Male</label
-                  >
-                  <label for="female" class="radio-inline"
-                    ><input
-                      type="radio"
-                      name="gender"
-                      value="f"
-                      id="female"
-                    />Female</label
-                  >
-                  <label for="others" class="radio-inline"
-                    ><input
-                      type="radio"
-                      name="gender"
-                      value="o"
-                      id="others"
-                    />Others</label
-                  >
-                </div>
-              </div>
+            
+              
+              </div><br>
               <div class="form-group">
                 <label for="email">Email</label>
                 <input
@@ -145,16 +127,8 @@
                   id="email"
                   name="email"
                 />
-              </div>
-              <div class="form-group">
-                <label for="password">Password</label>
-                <input
-                  type="password"
-                  class="form-control"
-                  id="password"
-                  name="password"
-                />
-              </div>
+              </div><br>
+             
               <div class="form-group">
                 <label for="number">Phone Number</label>
                 <input
@@ -163,7 +137,18 @@
                   id="number"
                   name="number"
                 />
-              </div>
+              </div><br>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea
+                name="message"
+                id="message"
+                cols="30"
+                rows="10"
+                placeholder="Enter your message"
+                required
+              ></textarea>
+              </div><br>
               <input type="submit" class="btn btn-primary" />
             </form>
           </div>
